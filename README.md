@@ -13,26 +13,25 @@ _Take control of your workflow with powerful search filters, saved queries, and 
 
 </header>
 
-## Step 2: Create Custom Filters and Views
+## Step 3: Manage Issue Subscriptions
 
-Custom filters allow you to save frequent searches for easy access later. Let's create a set of useful filters.
+Staying informed about issues you care about is crucial for effective collaboration.
 
-### 🔍 Creating Saved Searches
+### 👀 Subscription Levels
 
-Saved searches appear in your issues sidebar for quick access:
+GitHub offers different ways to follow issues:
 
-1. After performing a search, look for the "Save search" option
-2. Name your search something descriptive
-3. Access saved searches from the sidebar on the Issues page
+- **Participating**: You'll be notified of any activity on issues where you've participated
+- **Watching**: You'll be notified of all activity on a repository
+- **Custom**: You can subscribe to specific issues without watching the entire repository
 
-### :keyboard: Task: Create Multiple Custom Filters
+### :keyboard: Task: Set Up Subscriptions
 
-Create the following saved searches:
-
-1. `is:open is:issue sort:updated-desc` - Recently updated issues
-2. `is:open is:issue assignee:@me milestone:current` - Your tasks for the current milestone
-3. `is:open is:issue label:help-wanted` - Open issues seeking help
-4. Comment "filters-created" when you've created all three saved searches
+1. Open an issue in your repository
+2. Look for the "Subscribe" button in the right sidebar
+3. Click it to subscribe to updates for this specific issue
+4. Visit another issue and unsubscribe if you're automatically subscribed
+5. Comment "subscribed" when complete
 
 ---
 
